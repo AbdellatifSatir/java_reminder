@@ -3,6 +3,7 @@ import vehicule.*;
 import employee.*;
 import animal.*;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -85,8 +86,18 @@ public class Main {
         System.out.println(myDateObj);
         System.out.println(formattedDate);
         //Enums
-        enum LEVEL {LOW,MEDUIM,HIGH}
-        LEVEL level = LEVEL.HIGH;
+        //enum LEVEL {LOW,MEDIUM,HIGH}
+        //LEVEL level = LEVEL.HIGH;
+        //Inner class
+        class Outer{
+            String o = "OUTER";
+            class Inner{
+                String i = "INNER";
+            }
+        }
+        Outer outer = new Outer();
+        Outer.Inner inner = outer.new Inner();
+
 
     }
 
