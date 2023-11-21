@@ -72,32 +72,8 @@ public class Main {
         football.setHomeTeam("Morocco");
     }
 
-    //COLLECTIONS
+    //COLLECTIONS - framework to access prepackaged data structures and algorithms for manipulating them
     public static void display_dsa(){
-        //Scanner
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("type your name : ");
-        String name = scanner.nextLine();
-        System.out.println(name);
-        //Date
-        LocalDateTime myDateObj = LocalDateTime.now();
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        String formattedDate  = myDateObj.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
-        System.out.println(myDateObj);
-        System.out.println(formattedDate);
-        //Enums
-        //enum LEVEL {LOW,MEDIUM,HIGH}
-        //LEVEL level = LEVEL.HIGH;
-        //Inner class
-        class Outer{
-            String o = "OUTER";
-            class Inner{
-                String i = "INNER";
-            }
-        }
-        Outer outer = new Outer();
-        Outer.Inner inner = outer.new Inner();
-
 
     }
 
