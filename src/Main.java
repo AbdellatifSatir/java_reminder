@@ -4,9 +4,7 @@ import employee.*;
 import animal.*;
 
 import java.util.ArrayList;
-import java.util.Scanner;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 
 public class Main {
@@ -14,16 +12,16 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("\n============Inheritance=============");
-        //display_calculation(); // Inheritance
+        display_calculation(); // Inheritance
 
         System.out.println("\n============Polymorphism=============");
-        //display_vehicule(); // Polymorphism
+        display_vehicule(); // Polymorphism
 
         System.out.println("\n============Abstraction=============");
-        //display_employer(); // Abstraction
+        display_employer(); // Abstraction
 
         System.out.println("\n============Interface=============");
-        //display_animal(); // Interface
+        display_animal(); // Interface
 
         System.out.println("\n============Collections=============");
         display_dsa(); // Collections
@@ -74,7 +72,6 @@ public class Main {
 
     //COLLECTIONS - framework to access prepackaged data structures and algorithms for manipulating them
     public static void display_dsa(){
-
     }
 
 }
